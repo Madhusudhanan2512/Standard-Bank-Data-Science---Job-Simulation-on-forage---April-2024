@@ -1,10 +1,10 @@
-# 🏠 Predicting Home Loan Approval with Machine Learning
+#  Predicting Home Loan Approval with Machine Learning
 
 This project aims to predict the **loan approval status** of customers using traditional machine learning algorithms. It not only seeks to create a predictive model but also to understand the **factors that influence loan approvals**.
 
 ---
 
-## 🔍 Problem Statement
+##  Problem Statement
 
 Financial institutions often receive numerous loan applications and must decide which ones to approve. Manual evaluation can be slow and prone to error. This project uses machine learning to:
 
@@ -13,7 +13,7 @@ Financial institutions often receive numerous loan applications and must decide 
 
 ---
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 - **Total records:** 614  
 - **Number of features:** 13  
@@ -23,7 +23,7 @@ Financial institutions often receive numerous loan applications and must decide 
 
 ---
 
-## 🔎 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 From the analysis:
 - Higher income correlates with higher loan approval rates.
@@ -32,7 +32,7 @@ From the analysis:
 
 ---
 
-## 🤖 Modeling
+##  Modeling
 
 Three models were implemented:
 
@@ -50,7 +50,7 @@ Three models were implemented:
 
 ---
 
-## ✅ Model Evaluation
+##  Model Evaluation
 
 Evaluation metric: **Accuracy** (based on confusion matrix)
 
@@ -60,11 +60,11 @@ Evaluation metric: **Accuracy** (based on confusion matrix)
 | Decision Tree       | 71%      |
 | Random Forest       | **80%**  |
 
-📌 **Random Forest** gave the best accuracy.
+ **Random Forest** gave the best accuracy.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas, NumPy
@@ -74,7 +74,7 @@ Evaluation metric: **Accuracy** (based on confusion matrix)
 
 ---
 
-## 📌 Key Insights
+##  Key Insights
 
 - Income and education significantly impact loan approval.
 - Random Forest offers the most reliable performance.
@@ -82,6 +82,6 @@ Evaluation metric: **Accuracy** (based on confusion matrix)
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project shows how machine learning can assist in automating the loan approval process by offering data-driven decisions. Future improvements may include using advanced models like XGBoost or integrating deep learning techniques.
